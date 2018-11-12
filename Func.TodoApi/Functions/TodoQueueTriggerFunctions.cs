@@ -16,6 +16,11 @@ namespace Func.TodoApi.Functions
             ILogger log)
         {
             await container.CreateIfNotExistsAsync();
+
+            if (todo.TaskDescription.Contains("!Delete"))
+            {
+                return;
+            }
             var blob = container.GetBlockBlobReference($"{todo.TaskDescription}");
             await blob.UploadTextAsync($"Created a new task: {todo.TaskDescription}");
             log.LogInformation($"C# Queue trigger Fx processed: {todo.TaskDescription}");
