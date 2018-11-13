@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDryrun.EventHubs.Console", "AzureDryrun.EventHubs.ConsoleApp\AzureDryrun.EventHubs.Console.csproj", "{54238450-5B1D-4579-9946-1123C91A2A2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDryRun.EventHubs.Persistence", "AzureDryRun.EventHubs.Persistence\AzureDryRun.EventHubs.Persistence.csproj", "{111522B4-9D6E-4E88-AC23-B06F414460B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDryRun.EventHubs.PublisherApp", "AzureDryRun.EventHubs.PublisherApp\AzureDryRun.EventHubs.PublisherApp.csproj", "{953A47B2-2FE4-4F66-8098-E19B1B8F31E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{54238450-5B1D-4579-9946-1123C91A2A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54238450-5B1D-4579-9946-1123C91A2A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54238450-5B1D-4579-9946-1123C91A2A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111522B4-9D6E-4E88-AC23-B06F414460B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111522B4-9D6E-4E88-AC23-B06F414460B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111522B4-9D6E-4E88-AC23-B06F414460B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111522B4-9D6E-4E88-AC23-B06F414460B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953A47B2-2FE4-4F66-8098-E19B1B8F31E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953A47B2-2FE4-4F66-8098-E19B1B8F31E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953A47B2-2FE4-4F66-8098-E19B1B8F31E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953A47B2-2FE4-4F66-8098-E19B1B8F31E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +51,8 @@ Global
 		{C4EC12CC-F03F-4568-9DB9-9B55B55E4B17} = {36237B26-BBC5-48CD-AF5B-102E8A3999C7}
 		{2DB8274A-1679-42D6-9D20-44119321AA21} = {C96873C9-C971-4F24-8498-08826B7A6A80}
 		{54238450-5B1D-4579-9946-1123C91A2A2D} = {C96873C9-C971-4F24-8498-08826B7A6A80}
+		{111522B4-9D6E-4E88-AC23-B06F414460B1} = {C96873C9-C971-4F24-8498-08826B7A6A80}
+		{953A47B2-2FE4-4F66-8098-E19B1B8F31E6} = {C96873C9-C971-4F24-8498-08826B7A6A80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {099779BA-6426-498F-942A-8FF4C4A964F0}
